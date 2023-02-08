@@ -1,0 +1,13 @@
+// 1D1D1D
+
+.layout {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+
+    &__content {
+        background: linear-gradient(180deg, #1D1D1D 30%, black 100%);
+        
+        width: 100%;
+        min-height: 100vh;
+    }
+}
